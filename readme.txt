@@ -1,4 +1,4 @@
-1.Ö´ÐÐTMS.sqlÎÄ¼þ´´½¨Êý¾Ý¿â
-2.ÐÞ¸Äweb.configÖÐ£¬Êý¾Ý¿âÁ¬½ÓTMSConnµÄÁ¬½Ó×Ö·û´®
+1.æ‰§è¡ŒTMS.sqlæ–‡ä»¶åˆ›å»ºæ•°æ®åº“
+2.ä¿®æ”¹web.configä¸­ï¼Œæ•°æ®åº“è¿žæŽ¥TMSConnçš„è¿žæŽ¥å­—ç¬¦ä¸²
 
-ÍøÕ¾£¬ÆóÒµ¹ÜÀíÏµÍ³¿ª·¢¡£QQ£º793159004
+ç½‘ç«™ï¼Œä¼ä¸šç®¡ç†ç³»ç»Ÿå¼€å‘ã€‚QQï¼š873301753
