@@ -1,0 +1,10 @@
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\obj\Debug\TMS_App_CodeTests.csprojAssemblyReference.cache
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\obj\Debug\TMS_App_CodeTests.csproj.CoreCompileInputs.cache
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\bin\Debug\TMS_App_CodeTests.dll
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\bin\Debug\TMS_App_CodeTests.pdb
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\bin\Debug\Arrow.Framework.dll
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\bin\Debug\Arrow.Framework.pdb
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\obj\Debug\TMS_App_CodeTests.csproj.CopyComplete
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\obj\Debug\TMS_App_CodeTests.dll
+F:\ASPCase\ATouristInformationNetwork_89bdfc8f-e3b8-41ac-94fd-1f52312aa2f4\TMS_App_CodeTests\obj\Debug\TMS_App_CodeTests.pdb

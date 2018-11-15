@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C4A76B1-1D52-41E9-AC74-63D57C9FA3AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TMS_App_Code</RootNamespace>
+    <AssemblyName>TMS_App_Code</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\Site\Bin\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Site\Bin\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\AdminBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\BLL\GoodsBLL.cs" />
+    <Compile Include="App_Code\BLL\GroupBLL.cs" />
+    <Compile Include="App_Code\BLL\LineBLL.cs" />
+    <Compile Include="App_Code\BLL\MemberBLL.cs" />
+    <Compile Include="App_Code\BLL\OrderBLL.cs" />
+    <Compile Include="App_Code\BLL\OrderNumFactory.cs" />
+    <Compile Include="App_Code\BLL\PicWallBLL.cs" />
+    <Compile Include="App_Code\BLL\PromotionBLL.cs" />
+    <Compile Include="App_Code\BLL\SiteUserBLL.cs" />
+    <Compile Include="App_Code\Domain\LineSearch\LineSearch.cs" />
+    <Compile Include="App_Code\Domain\LineSearch\LineSearchInfo.cs" />
+    <Compile Include="App_Code\Domain\Model\GroupCurtInfo.cs" />
+    <Compile Include="App_Code\Domain\Model\LoginInfo.cs" />
+    <Compile Include="App_Code\Domain\Model\MemberInfo.cs" />
+    <Compile Include="App_Code\Domain\Model\MemberMenuInfo.cs" />
+    <Compile Include="App_Code\Enum\AdminStatus.cs" />
+    <Compile Include="App_Code\Enum\CostType.cs" />
+    <Compile Include="App_Code\Enum\ExchangeStatus.cs" />
+    <Compile Include="App_Code\Enum\FavType.cs" />
+    <Compile Include="App_Code\Enum\OrderStatus.cs" />
+    <Compile Include="App_Code\Enum\PromotionType.cs" />
+    <Compile Include="App_Code\Enum\QACat.cs" />
+    <Compile Include="App_Code\Enum\TravelType.cs" />
+    <Compile Include="App_Code\Extensions.cs" />
+    <Compile Include="App_Code\MemberBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Setting\AdminSetting.cs" />
+    <Compile Include="App_Code\Setting\GlobalSetting.cs" />
+    <Compile Include="App_Code\Setting\SiteSetting.cs" />
+    <Compile Include="App_Code\SiteTest\SiteBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\TMSPager.cs" />
+    <Compile Include="App_Code\UIBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Utility\IconHelper.cs" />
+    <Compile Include="App_Code\Utility\JqueryMsg.cs" />
+    <Compile Include="App_Code\Utility\JsBox.cs" />
+    <Compile Include="App_Code\Utility\SiteUtility.cs" />
+    <Compile Include="App_Code\Utility\UIHelper.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArrowFramework\Framework\Arrow.Framework.csproj">
+      <Project>{7EE3840A-6F24-42E2-824B-3AF784EC3B6D}</Project>
+      <Name>Arrow.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\TMS.csproj">
+      <Project>{6479A442-AB22-4EAF-A3C6-95DD621770C4}</Project>
+      <Name>TMS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
